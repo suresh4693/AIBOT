@@ -35,7 +35,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Configuration
-API_KEY = "AIzaSyAatECt1n7u2Ci-dT2bCbENfdQ102ulyq4"  # Replace with your actual API key
+API_KEY = "*******************************************"  # Replace with your actual API key
 MAX_MESSAGE_LENGTH = 4000
 RATE_LIMIT_DELAY = 1  # Minimum seconds between requests
 
@@ -831,4 +831,5 @@ if __name__ == "__main__":
         host="0.0.0.0",
         port=5000,
         threaded=True
+
     )
